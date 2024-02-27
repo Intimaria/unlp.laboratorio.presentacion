@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Impress.js Presentation</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="js/impress.js"></script>
+</head>
+<body>
+
+<div id="impress">
+    <!-- Slide 1 -->
+    <div class="step" data-x="0" data-y="0">
+        <h1>Welcome</h1>
+        <p>This is the introduction slide.</p>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="step" data-x="1000" data-y="0" data-scale="2">
+        <h2>Slide 2</h2>
+        <p>Details about the second topic.</p>
+    </div>
+
+    <!-- Additional slides -->
+    <div class="step" data-x="2000" data-y="0" data-rotate="90">
+        <h2>Slide 3</h2>
+        <p>Exploring the third topic.</p>
+    </div>
+
+    <!-- More slides can be added here -->
+</div>
+
+<script>
+    impress().init();
+</script>
+
+</body>
+</html>
+
